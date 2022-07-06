@@ -1,0 +1,26 @@
+.main{
+    &__content{
+        padding: 170px 0 180px 0;
+    }
+
+    &__title{
+        max-width: 685px;
+        margin-bottom: 20px;
+    }
+
+    &__text{
+        max-width: 432px;
+        margin-bottom: 60px;
+    }
+
+    .col{
+        width: 50%;
+    }
+}
+
+.main__img{
+    position: absolute;
+    width: 776px;
+    height: 613.75px;
+    top: 110px;
+}

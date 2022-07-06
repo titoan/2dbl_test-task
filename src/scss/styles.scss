@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
+
 @import "variables";
 
 body{
@@ -9,6 +11,14 @@ img{
     width: 100%;
 }
 
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+}
+
+p{margin: 0;}
+
 .btn{
     background-color: $green-color;
     color: #fff;
@@ -18,11 +28,23 @@ img{
     display: inline-block;
     text-align: center;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.def-btn{
+    width: 270px;
+    padding: 20.5px 0;
 }
 
 .content-container{
     max-width: 1170px;
     margin: 0 auto;
+    position: relative;
+    // background-color: rgba(rgb(11, 117, 64), 0.2);
+}
+
+.row{
+    display: flex;
 }
 
 .logo{
@@ -31,3 +53,4 @@ img{
 }
 
 @import "menu";
+@import "main";
