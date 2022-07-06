@@ -8,10 +8,7 @@ gulp.task('scss', async function(){
     return gulp.src('src/scss/**/*.scss')
         .pipe(sass())
         .pipe(cleanCSS({level:2}))
-        .pipe(gulp.dest('dist/css'))       
-        .pipe(browserSync.reload({
-            stream: true
-          }))
+        .pipe(gulp.dest('dist/css'))               
     });
 
 gulp.task('pug', async function(){
