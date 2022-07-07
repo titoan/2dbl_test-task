@@ -1,0 +1,21 @@
+.requisition{
+    .content-container{
+        padding-top: 214px;
+    }
+
+    &__title{
+        margin-bottom: 50px;
+    }
+
+    &__text{
+        margin-bottom: 45px;
+        max-width: 670px;
+        font-size: 18px;
+    }
+
+    &__img{
+        position: absolute;
+        right: -235px;
+        top: 137px;
+    }
+}
