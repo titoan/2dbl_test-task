@@ -3,6 +3,7 @@ const gulp = require('gulp');
     pug = require('gulp-pug'),    
     cleanCSS = require('gulp-clean-css');
     
+    
 
 gulp.task('scss', async function(){
     return gulp.src('src/scss/**/*.scss')
@@ -23,7 +24,7 @@ gulp.task('js', async function(){
 })
 
 gulp.task('img', async function(){
-    return gulp.src('src/img/*')
+    return gulp.src('src/img/*')    
     .pipe(gulp.dest('dist/img'))
 })
 

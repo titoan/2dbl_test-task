@@ -1,0 +1,10 @@
+-let portfolioImgs = ['portfolio-card-img_1.png','portfolio-card-img_2.png','portfolio-card-img_3.png','portfolio-card-img_4.png','portfolio-card-img_5.png','portfolio-card-img_6.png'];
+
+.portfolio
+    .content-container 
+        h2.portfolio__title Примеры онлайн-магазинов
+        //- img(src=`img/portfolio-card-img_1.svg`, alt="")
+        .portfolio__items
+            each item in portfolioImgs
+                .portfolio-card
+                    img(src=`img/${item}`, alt="")

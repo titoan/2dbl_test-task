@@ -15,5 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sRyb",
-  "license": "ISC"  
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-imagemin": "^8.0.0"
+  }
 }

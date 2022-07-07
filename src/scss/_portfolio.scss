@@ -1,0 +1,19 @@
+.portfolio{
+    background-color: $light-blue-color;
+    padding: 120px 0;
+    &__title{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+    
+.portfolio-card{
+    width: 563px;
+    height: 447px;
+}
+
+.portfolio__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
