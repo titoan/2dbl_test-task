@@ -1,0 +1,70 @@
+.footer{
+    background-color: $deep-vlue-color;
+    padding-top: 100px;
+    padding-bottom: 85px;
+
+    a{
+        color: #fff;
+        font-size: 20px;  
+    }
+
+    .row {
+        justify-content: space-between;
+        padding-bottom: 120px;
+    }
+
+    // .col{
+    //     width: 33.333%;
+    // }
+}
+
+.soc-icons-row{
+    display: flex;
+    gap: 38px;    
+}
+
+.soc-icon{
+    width: 27px;
+    height: 25.5px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+}
+
+.ico_inst{
+    background-image: url(../img/ico-inst.svg);
+}
+
+.ico-fbook{
+    background-image: url(../img/ico-fb.svg);
+}
+
+.ico-tg{
+    background-image: url(../img/ico-tg.svg);
+}
+
+.ico-viber{
+    background-image: url(../img/ico-viber.svg);
+}
+
+.ico-watsap{
+    background-image: url(../img/ico-watsap.svg);
+}
+
+.phone-numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.phone-numbers__item{
+    display: flex;
+    font-size: 20px;    
+    gap: 10px;   
+}
+
+.copyright{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
