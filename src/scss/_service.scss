@@ -32,7 +32,12 @@
         padding-top: 45px;
         padding-bottom: 60px;        
         transition: 1s;
-        height: 100%;
+        overflow: hidden;     
+    }
+
+    .tab__arrow{
+        transform: rotate(180deg);
+        transition: 1s;
     }
 }
 
@@ -57,11 +62,11 @@
 }
 
 .tab__content {
-    position: absolute;
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     padding-left: 40px;
-    height: 0%;
+    max-height: 0;
     overflow: hidden;
     padding-top: 0;
     padding-bottom: 0;  
@@ -69,6 +74,7 @@
     background-color: #fff;
     left: 0;
     right: 0;
+    transition: 1s;
 
     p:not(:last-child) {
         margin-bottom: 20px;
