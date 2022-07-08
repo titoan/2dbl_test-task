@@ -1,5 +1,6 @@
 .steps{
     padding: 120px 0;
+    overflow-x: hidden;
 
     &__title{
         text-align: center;
@@ -8,6 +9,7 @@
 
     .row{
         gap: 25px;
+        transition: 1s;
     }
 }
 
@@ -31,4 +33,33 @@
     }
 }
 
+.slider-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
 
+    &__items{
+        display: flex;
+        gap:30px;
+    }
+
+    &__nav{
+        width: 60px;
+        height: 60px;
+        border: 2px solid #67AEFC;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    &__prew{
+        background-image: url(../img/slider-nav-prew.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &__next{
+        background-image: url(../img/slider-nav-next.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
