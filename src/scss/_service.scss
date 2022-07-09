@@ -39,6 +39,11 @@
         transform: rotate(180deg);
         transition: 1s;
     }
+
+    .tab__status{
+        background-color: $deep-vlue-color;
+        transition: .5s;
+    }
 }
 
 .tab__status {
@@ -47,6 +52,7 @@
     border-radius: 99px;
     background-color: $green-color;
     margin-right: 28px;
+    transition: background-color .5s;
 }
 
 .tab__title {
@@ -59,6 +65,7 @@
     height: 14px;
     background-image: url(../img/tab-arrow.svg);
     background-repeat: no-repeat;
+    transition: 1s;
 }
 
 .tab__content {
