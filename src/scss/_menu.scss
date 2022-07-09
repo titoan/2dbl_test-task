@@ -20,7 +20,20 @@
 
         &__btn{
             width: 170px;
-            padding: 10px 0;
+            padding: 9.5px 0;
+            transition: border .5s;
+            box-sizing: border-box;
+            border: 2px solid rgba(#FFFFFF, 0);
+
+            &:hover{
+                border: 2px solid rgba(#FFFFFF, 1);
+                transition: .5s;
+            }
+
+            &:active{
+                background-color: #fff;
+                color: $deep-vlue-color;
+            }
         }
 
         &__container{

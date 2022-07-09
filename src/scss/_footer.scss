@@ -20,7 +20,8 @@
 
 .soc-icons-row{
     display: flex;
-    gap: 38px;    
+    gap: 38px; 
+    margin-top: 45px;   
 }
 
 .soc-icon{
@@ -55,6 +56,7 @@
     display: flex;
     flex-direction: column;
     gap: 13px;
+    margin-top: 27px;
 }
 
 .phone-numbers__item{
@@ -63,8 +65,12 @@
     gap: 10px;   
 }
 
+.e-mail{
+    margin-top: 27px;
+}
+
 .copyright{
     font-size: 18px;
     color: #fff;
-    text-align: center;
+    text-align: center;    
 }

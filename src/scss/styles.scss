@@ -47,7 +47,20 @@ p{
 
 .def-btn{
     width: 270px;
-    padding: 20.5px 0;
+    padding: 20px 0;
+    border: 2px solid rgba($deep-vlue-color, 0);
+    box-sizing: border-box;
+    transition: border .5s;
+
+    &:hover{
+        border: 2px solid rgba($deep-vlue-color, 1);
+        transition: .5s;
+    }
+
+    &:active{
+        background-color: $deep-vlue-color;
+        color: #fff;
+    }
 }
 
 .content-container{
