@@ -1,4 +1,6 @@
 .requisition{
+    overflow-x: hidden;
+    position: relative;
     .content-container{
         padding-top: 214px;
         padding-bottom: 180px;
@@ -18,11 +20,11 @@
         position: absolute;
         right: -235px;
         top: 137px;
-    }   
-}
+    } 
 
-@media (max-width:1920px){
-    .requisition__img{
-        // width: 32.15vw;
+    &__decor{
+        position: absolute;
+        top: 150px;
+        left: 8%;
     }
 }

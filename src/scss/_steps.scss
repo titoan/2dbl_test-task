@@ -1,6 +1,7 @@
 .steps{
     padding: 120px 0;
     overflow-x: hidden;
+    position: relative;
 
     &__title{
         text-align: center;
@@ -10,6 +11,19 @@
     .row{
         gap: 25px;
         transition: 1s;
+    }
+
+    &__decor-top{
+        position: absolute;
+        top: 130px;
+        left: -187px;
+        top: 0;
+    }
+
+    &__decor-bottom{
+        position: absolute;
+        bottom: -73px;
+        right: -190px;
     }
 }
 

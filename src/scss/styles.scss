@@ -79,6 +79,69 @@ p{
     height: 59px;
 }
 
+.decor-teal-ball{
+    width: 53px;
+    height: 53px;
+    background-image: url(../img/decor-ball__teal.svg);    
+}
+
+.decor-group-1{
+    width: 236px;
+    height: 183px;
+    background-image: url(../img/decor-group-1.svg);
+}
+
+.decor-group-2{
+    width: 184px;
+    height: 145px;
+    background-image: url(../img/decor-group-2.svg);
+}
+
+.decor-bag{
+    width: 133px;
+    height: 148px;
+    background-image: url(../img/decor-bag.svg);
+}
+
+.decor-ball-white{
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/decor-ball__white.svg);
+}
+
+.decor-ball-white_big{
+    width: 109px;
+    height: 109px;
+    background-image: url(../img/decor-ball__white.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.decor-ball-teal_big{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/decor-ball__teal.svg);
+    background-size: cover;
+}
+
+.decor-wave-blue{
+    width: 190px;
+    height: 70px;
+    background-image: url(../img/decor-wave-blue.svg);
+}
+
+.decor-wave-pink{
+    width: 216px;
+    height: 175px;
+    background-image: url(../img/decor-wave-pink.svg);
+}
+
+.decor-phone{
+    width: 272px;
+    height: 297px;
+    background-image: url(../img/decor-phone.svg);
+}
+
 @import "menu";
 @import "main";
 @import "service";

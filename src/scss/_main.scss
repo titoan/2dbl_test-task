@@ -1,32 +1,48 @@
-.main{
-    &__content{
+.main {
+    position: relative;
+    background-image: url(../img/decor-semicercle-light-blue.png);
+    background-repeat: no-repeat;
+    background-position: right 80px;
+    &__content {
         padding: 170px 0 180px 0;
     }
 
-    &__title{
+    &__title {
         max-width: 685px;
         margin-bottom: 20px;
     }
 
-    &__text{
+    &__text {
         max-width: 432px;
         margin-bottom: 60px;
     }
 
-    .col{
+    .col {
         width: 50%;
+    }
+
+    &__decor-top {
+        top: 120px;
+        left: -135px;
+        position: absolute;
+    }
+
+    &__decor-bot{
+        position: absolute;
+        left: 0;
+        bottom: 40px;
     }
 }
 
-.main__img{
+.main__img {
     position: absolute;
     width: 776px;
     height: 613.75px;
     top: 110px;
 }
 
-@media (max-width:1920px){
-    .main__img{
+@media (max-width: 1920px) {
+    .main__img {
         width: 40.4vw;
     }
 }

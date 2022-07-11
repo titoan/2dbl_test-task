@@ -1,9 +1,22 @@
 .portfolio {
     background-color: $light-blue-color;
     padding: 120px 0;
+    position: relative;
     &__title {
         text-align: center;
         margin-bottom: 50px;
+    }
+
+    &__decor-top{
+        position: absolute;
+        top: 301px;
+        left: 23px;
+    }
+
+    &__decor-bot{
+        position: absolute;
+        right: 122px;
+        bottom: 245px;
     }
 }
 
@@ -12,12 +25,13 @@
     position: relative;
     margin-bottom: 40px;
     display: flex;
+    z-index: 999;
 
     &:hover .portfolio-card__hover{
         visibility: visible;
         opacity: 1;
         transition: 1s;
-    }
+    } 
 }
 
 .portfolio__items {

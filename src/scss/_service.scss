@@ -1,9 +1,17 @@
 .service {
     background-color: $light-blue-color;
     padding: 120px 0;
+    position: relative;
+    overflow-x: hidden;
     &__title {
         text-align: center;
         margin-bottom: 80px;
+    }
+
+    &__decor{
+        position: absolute;
+        bottom: -30px;
+        right: -230px;
     }
 }
 
@@ -43,6 +51,10 @@
     .tab__status{
         background-color: $deep-vlue-color;
         transition: .5s;
+    }
+
+    .tab__title{
+        font-weight: 700;
     }
 }
 
