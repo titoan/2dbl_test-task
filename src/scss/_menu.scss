@@ -1,9 +1,11 @@
 .menu{
     background-color: $blue-color;
+    position: relative;
     &__container{
         display: flex;
         justify-content: space-between;        
         padding: 18px 0;
+       
     }
 
     .nav{
@@ -40,6 +42,36 @@
             display: flex;
             align-items: center;
             gap: 30px;
+        }
+
+        &__mobile{
+            position: absolute;
+            top: 95px;
+            left: 0;
+            right: 0;
+            background-color: $deep-vlue-color;
+            z-index: 9999;
+            padding: 0;
+            max-height: 0;
+            overflow: hidden;
+            transition: .5s;
+            &.active{
+                padding: 45px 0;
+                transition: .5s;
+            }         
+
+            .nav{
+                flex-direction: column;                
+                align-items: center;
+                gap: 43px;
+                font-weight: 800;
+                font-size: 17px;
+                text-transform: uppercase;
+                
+                &__item{
+                    line-height: 27px;
+                }
+            }
         }
     }
 }

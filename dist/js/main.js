@@ -23,6 +23,7 @@ function startTabs() {
     });
   }
 }
+
 startTabs();
 
 function startSlider(){
@@ -47,3 +48,21 @@ function startSlider(){
 }
 
 startSlider()
+
+function startMobMenu(){
+  let gamburger = document.querySelector('.gamburger-menu');
+  let navMob = document.querySelector('.nav__mobile');
+  gamburger.addEventListener('click', function(){
+    navMob.classList.toggle('active');
+    
+
+    if (navMob.style.maxHeight) {
+      navMob.style.maxHeight = null;
+    }else{
+      navMob.style.maxHeight = navMob.scrollHeight + "px";
+    }
+    
+  })
+}
+
+startMobMenu()
