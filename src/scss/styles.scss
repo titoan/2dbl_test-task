@@ -150,3 +150,29 @@ p{
 @import "requisition";
 @import "callback-form";
 @import "footer";
+
+@media(max-width:890px){
+    h1{
+        font-size: 27px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-size: 23px;
+    }
+
+    .def-btn{
+        width: 100%;
+    }
+
+    .main__text{
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width: 1199px){
+    .content-container{
+        padding: 0 19px;
+    }
+}

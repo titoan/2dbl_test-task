@@ -43,3 +43,25 @@
         }
     }
 }
+.gamburger-menu{
+    display: none;
+}
+
+@media (max-width:898px){
+    .gamburger-menu{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        gap: 5px;
+        &__ico{
+            width: 13px;
+            height: 13px;
+            background-color: #fff;
+            border-radius: 99px;
+        }
+    }
+
+    .nav__container{
+        display: none !important;
+    }
+}
