@@ -1,6 +1,7 @@
 .requisition{
     overflow-x: hidden;
     position: relative;
+   
     .content-container{
         padding-top: 214px;
         padding-bottom: 180px;
@@ -27,4 +28,33 @@
         top: 150px;
         left: 8%;
     }
+}
+
+@media (max-width:  768px){
+    .requisition{
+
+        .content-container{
+            padding-top: 50px;
+        }
+        &__title{
+            text-align: center;
+        }        
+        .row{
+            flex-direction: column;            
+        }
+        .col{
+            flex: 1;
+        }
+        .col{
+            &:first-child{
+                order:2;
+            }
+        }
+        &__img{
+            position: static;
+        }
+        &__decor{
+            display: none;
+        }
+    }    
 }
