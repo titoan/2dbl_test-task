@@ -147,6 +147,10 @@ ul{
     background-image: url(../img/decor-phone.svg);
 }
 
+.mob_img{
+    display: none;
+}
+
 @import "menu";
 @import "main";
 @import "service";
@@ -155,6 +159,16 @@ ul{
 @import "requisition";
 @import "callback-form";
 @import "footer";
+
+@media(max-width:768px){
+    .disp_img{
+        display: none;
+    }
+
+    .mob_img{
+        display: block;
+    }
+}
 
 @media(max-width:890px){
     h1{
@@ -181,3 +195,4 @@ ul{
         padding: 0 19px;
     }
 }
+
