@@ -31,6 +31,10 @@
         right: 29px;
         top: 120px;
     }
+
+    &__mob-img{
+        display: none;
+    }
 }
 
 .callback-form__form{
@@ -61,4 +65,30 @@
             border: 2px solid #6EB1FB;
         }
     }    
+}
+
+@media (max-width:480px){
+    .callback-form__form{
+        input:not([type="submit"]){
+            width: 100%;            
+        }
+
+        margin-bottom: 42px;
+    }
+    
+    .callback-form{
+        padding: 42px 0 25px;
+        .input-wrapper{
+            width: 100%;
+        }
+
+        &__decor-left,&__decor-right{
+            display: none;
+        }
+        
+        &__mob-img {
+            display: block;
+        }
+    }
+
 }

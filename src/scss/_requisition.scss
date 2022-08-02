@@ -30,11 +30,11 @@
     }
 }
 
-@media (max-width:  768px){
+@media (max-width: 1199px){
     .requisition{
 
         .content-container{
-            padding-top: 50px;
+            padding: 50px 20px;
         }
         &__title{
             text-align: center;
@@ -52,9 +52,13 @@
         }
         &__img{
             position: static;
+            margin-bottom: 30px;
         }
         &__decor{
             display: none;
+        }
+        &__text{
+            margin-bottom: 35px;
         }
     }    
 }
